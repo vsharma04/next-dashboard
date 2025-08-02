@@ -62,6 +62,9 @@ const AppSidebar: React.FC = () => {
           <img
             src="/assets/icons/arrowCircleRight.svg"
             alt="Arrow circle right"
+            className={`transition-transform duration-300 ${
+              !isExpanded ? 'rotate-180' : 'rotate-0'
+            }`}
           />
         </button>
       </div>
