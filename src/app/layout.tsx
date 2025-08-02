@@ -6,7 +6,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Property Tax Dashboard',
-  description: 'A Next.js dashboard template',
+  description: 'Property tax dashboard',
 }
 
 const outfit = Outfit({
